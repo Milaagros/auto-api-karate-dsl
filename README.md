@@ -66,7 +66,7 @@ mvn test -Dkarate.options="--tags @escenario-id,@escenario-body"
 mvn test -Dkarate.options="--tags @escenario-id,~@escenario-body"
 
 📂 Ejecutar una feature específica:
-mvn test -Dkarate.options="classpath:examples/pet/post.feature"
+mvn test -Dkarate.options="classpath:api/pet/post.feature"
 
 🤖 Asistencia con ChatGPT
 
