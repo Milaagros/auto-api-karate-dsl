@@ -6,22 +6,22 @@ public class PetRunner {
 
     @Karate.Test
     Karate testPostEscenarioSimple() {
-        return Karate.run("post-escenario-simple").relativeTo(getClass());
+        return Karate.run("Tests/post-escenario-simple").relativeTo(getClass());
     }
 
     @Karate.Test
     Karate testPostEscenarioOutline() {
-        return Karate.run("post-escenario-outline").relativeTo(getClass());
+        return Karate.run("Tests/post-escenario-outline").relativeTo(getClass());
     }
 
     @Karate.Test
     Karate testGetEscenarioSimple() {
-        return Karate.run("get-escenario-simple").relativeTo(getClass());
+        return Karate.run("CRUD/get-escenario-simple").relativeTo(getClass());
     }
 
     @Karate.Test
     Karate testPutEscenarioSimple() {
-        return Karate.run("put-escenario-simple").relativeTo(getClass());
+        return Karate.run("Tests/put-escenario-simple").relativeTo(getClass());
     }
 
     @Karate.Test
@@ -32,13 +32,24 @@ public class PetRunner {
     @Karate.Test
     Karate testGetEscenarioNegativo() {
 
-        return Karate.run("get-escenario-negativo").relativeTo(getClass());
+        return Karate.run("Tests/get-escenario-negativo").relativeTo(getClass());
     }
 
     @Karate.Test
     Karate testPostEscenarioCustom() {
 
-        return Karate.run("post-escenario-custom").relativeTo(getClass());
+        return Karate.run("Tests/post-escenario-custom").relativeTo(getClass());
     }
 
+    @Karate.Test
+    Karate testPostJsonEscenario() {
+
+        return Karate.run("CRUD/post-json-escenario").relativeTo(getClass());
+    }
+
+    @Karate.Test
+    Karate petflow() {
+
+        return Karate.run("CRUD/pet-flow").relativeTo(getClass());
+    }
 }

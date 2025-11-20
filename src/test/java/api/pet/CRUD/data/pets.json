@@ -1,0 +1,27 @@
+[
+  {
+    "id": 20,
+    "name":  "test-pet",
+    "category":  {  "id": 0,  "name":  "string"  },
+    "photoUrls":  ["string"],
+    "tags":  [{ "id":  0,  "name":  "string" }],
+    "status": "available"
+  },
+  {
+    "id": 21,
+    "name": "doggie",
+    "category": { "id":  1, "name": "Dogs" },
+    "photoUrls":  ["https://example.com/photo.jpg"],
+    "tags":  [ { "id": 1, "name": "friendly" }],
+    "status": "available"
+  },
+  {
+    "id": 22,
+    "name": "kitty",
+    "category": { "id":  2, "name": "Cats"},
+    "photoUrls":  ["https://example.com/photo.jpg"],
+    "tags":  [ { "id":2, "name": "lazy" }],
+    "status": "sold"
+  }
+]
+
